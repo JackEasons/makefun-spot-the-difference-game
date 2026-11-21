@@ -1,0 +1,30 @@
+/* Twin Glasshouse: a warm dark room around the canvas, nothing else. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #171208;
+  min-height: 100%;
+}
+
+#stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#game {
+  display: block;
+  width: min(1280px, 100vw);
+  height: auto;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  cursor: crosshair;
+}
+
+#fallback {
+  display: none;
+  color: #f7ead2;
+  font: 16px Georgia, serif;
+  text-align: center;
+}
